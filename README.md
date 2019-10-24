@@ -1,5 +1,17 @@
 # django-scaffolds
 
+This repo is intended to serve as a basis for new django projects.  By using this scaffolding, you're starting off with:
+
+* Custom user model
+* Postgres integration
+* Docker integration
+* User registration
+* Static file mappings
+* Template file mappings
+* Bootstrap 4 + crispy forms integration
+
+If you want to use allauth for additional authentication or have transactional emails etc, that is left up to you to implement.
+
 ## In order for this to work, you need to create a .env file defining the following variables:
 
 ```
