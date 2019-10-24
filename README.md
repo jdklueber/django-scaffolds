@@ -2,9 +2,11 @@
 
 This repo is intended to serve as a basis for new django projects.  By using this scaffolding, you're starting off with:
 
+* Pipenv dependency management
+* A decent .gitignore
 * Custom user model
 * Postgres integration
-* Docker integration
+* Docker integration + some courtesy scripts to assist with listing logs, restarting/rebuilding the container. running unit tests...
 * User registration
 * Static file mappings
 * Template file mappings
